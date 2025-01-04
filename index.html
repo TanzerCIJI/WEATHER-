@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погодний застосунок</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-display">
+            <h1 class="city">World Weather</h1>
+            <div class="temperature">
+                <p>Actual: <span id="actual-temp">-</span>°C</p>
+                <p>Feels like: <span id="feels-temp">-</span>°C</p>
+            </div>
+            <div class="details">
+                <p>Humidity: <span id="humidity">-</span>%</p>
+                <p>Pressure: <span id="pressure">-</span> hPa</p>
+                <p>Wind: <span id="wind-speed">-</span> m/s, <span id="wind-deg">-</span>°</p>
+            </div>
+        </div>
+        <div class="input-section">
+            <img src="зображення_viber_2025-01-04_11-28-06-123.png" alt="Weather Icon" class="weather-icon">
+            <input type="text" id="city-input" placeholder="Введіть місто">
+            <button id="get-weather">Подивитися погоду</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
